@@ -5,3 +5,6 @@ site.db
 __pycache__/
 instance/
 
+# Ignore uploaded profile pictures
+flaskblog/static/profile_pics/*
+!flaskblog/static/profile_pics/.gitkeep
