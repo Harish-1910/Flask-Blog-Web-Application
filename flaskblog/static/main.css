@@ -8,12 +8,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
+/* ==========================
+   NAVBAR (Enhanced Only)
+   ========================== */
+
 .bg-steel {
-  background-color: #5f788a;
+  background: linear-gradient(90deg, #283048, #3b5876);
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #dce3ea;
+  transition: color 0.2s ease-in-out;
 }
 
 .site-header .navbar-nav .nav-link:hover {
@@ -21,8 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+  font-weight: 600;
+  color: #ffffff;
 }
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================
+   CONTENT
+   ========================== */
 
 .content-section {
   background: #ffffff;
@@ -54,7 +69,7 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .article-metadata a:hover {
@@ -67,6 +82,10 @@ a.article-title:hover {
   height: 25px;
   vertical-align: middle;
 }
+
+/* ==========================
+   ACCOUNT PAGE
+   ========================== */
 
 .account-img {
   height: 125px;
