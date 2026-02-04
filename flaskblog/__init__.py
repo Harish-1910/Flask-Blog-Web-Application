@@ -31,7 +31,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # ---------------- Extensions ----------------
 db = SQLAlchemy(app)
-migrate = Migrate(app, db)   # ✅ VERY IMPORTANT
+migrate = Migrate(app, db)   
 bcrypt = Bcrypt(app)
 
 login_manager = LoginManager(app)
@@ -49,3 +49,7 @@ mail = Mail(app)
 
 # ---------------- Routes ----------------
 from flaskblog import routes
+
+
+with app.app_context():
+    db.create_all()
