@@ -49,8 +49,8 @@ Blog/
 
 ## 🚀 Getting Started
 
-1️⃣ Clone the repository
 ```bash
+1️⃣ Clone the repository
 git clone https://github.com/Harish-1910/Flask-Blog-Web-Application.git
 cd Flask-Blog-Web-Application
 
