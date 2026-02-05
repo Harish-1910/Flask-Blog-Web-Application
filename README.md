@@ -33,6 +33,7 @@ A clean and minimal blog platform built with Flask, designed for writing, managi
 ## 📁 Project Structure
 
 Blog/
+
 ├── .venv/  
 ├── flaskblog/  
 ├── instance/  
